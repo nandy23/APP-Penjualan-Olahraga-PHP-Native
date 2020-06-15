@@ -1,0 +1,518 @@
+* {
+	font-family: 'open sans', 'segoe ui';
+}
+
+.form-no-border {
+	border: 0 !important;
+}
+
+.header {
+	background: #e74c3c;
+}
+
+.header a {
+	color: #fff;
+	font-family: "open sans", "segoe ui";
+	font-size: 15px;
+}
+
+.header a:hover {
+	color: #eee;
+}
+
+.logo-area a:hover {
+	text-decoration: none;
+}
+
+.logo-area h3 {
+	margin-bottom: -5px;
+	font-weight: bold;
+}
+
+.nav-item {
+	margin: 0 10px;
+}
+
+.nav-item .input-group {
+	margin-top: 5px;
+}
+
+.navbar-toggler {
+	padding: 0;
+	font-size: 20px;
+	line-height: 1;
+	background-color: #ff084e;
+	border: none;
+	border-radius: 0;
+	width: 100%;
+	height: 35px;
+	color: #fff;
+	line-height: 28px;
+}
+
+.input-group {
+	margin-left: 10px;
+}
+
+.input-group input {
+	font-size: 13px;
+}
+
+.welcome-area {
+	background-image: url(../../img/bg.jpg);
+	background-size: cover;
+	height: 70vh;
+}
+
+.welcome-text {
+	padding: 70px 150px 130px;
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 100%;
+	color: #fff;
+}
+
+.logo {
+	border: 2px solid #fff;
+	display: block;
+	width: 250px;
+	margin: auto;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.logo h1 {
+	font-size: 70px;
+	margin-bottom: -15px;
+}
+
+.logo span {
+	font-weight: 100;
+	font-size: 30px;
+}
+
+.product-list {
+	margin: 100px 0;
+}
+
+.content-title {
+	font-family: 'open sans';
+	margin-bottom: 30px;
+}
+
+.content-title h1 {
+	font-weight: bold;
+	font-family: 'Open Sans'font-size: 50px;
+	text-transform: uppercase;
+}
+
+.category-button {
+	margin-bottom: 20px;
+}
+
+.category-button button {
+	font-weight: bold;
+	color: #777;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.category-button button:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+/* product style */
+
+.product {
+	transition: .2s;
+}
+
+.product-img {
+	overflow: hidden;
+	position: relative;
+}
+
+.product-img img {
+	transition: .3s ease-out;
+}
+
+.img-cover {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.4);
+	opacity: 0;
+	transition: .3s;
+	text-align: center
+}
+
+.view-btn {
+	font-size: 80px;
+	color: #fff;
+	transition: .3s;
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+
+.view-btn i {
+	padding: 50% 0;
+}
+
+.view-btn:hover {
+	color: #e74c3c;
+}
+
+.product:hover img {
+	transform: scale(1.15, 1.15)
+}
+
+.product:hover .img-cover {
+	opacity: 1
+}
+
+.product-description {
+	margin: 20px 0 40px;
+}
+
+.product-description p {
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+
+.product-title h2 {
+	font-weight: bold;
+}
+
+.product-rating i {
+	color: gold;
+}
+
+.product-details p {
+	color: #373737;
+}
+
+.product-price {
+	color: #9f9f9f;
+	display: block;
+	font-weight: 400;
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+.product-name {
+	font-weight: bold;
+	color: #333;
+}
+
+.product-name:hover {
+	color: #777
+}
+
+.product-action input[type="number"] {
+	border: 1px solid #a9a9a9;
+	padding: 3px 5px;
+	width: 46px;
+	margin-right: 20px;
+}
+
+.product-action select {
+	border: 1px solid #a9a9a9;
+	padding: 3px 5px;
+	margin-right: 20px;
+}
+
+.add-to-cart-btn {
+	padding: 5px 15px;
+	background: #e74c3c;
+	color: #fff;
+	font-weight: 500;
+	transition: .2s;
+	display: block;
+	text-align: center;
+}
+
+.add-to-cart-btn:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #c0392b;
+}
+
+/* end product style */
+
+/* footer style */
+
+footer {
+	background: #3a3a3a;
+	color: #fff;
+}
+
+.copyright p {
+	color: #9f9f9f;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.border-dark {
+	border-color: #777;
+}
+
+.no-border {
+	border: none !important;
+}
+
+.logo-small {
+	border: 1px solid #fff;
+	display: block;
+	width: 150px;
+	padding-bottom: 0;
+	margin-top: 30px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.logo-small h1 {
+	font-size: 40px;
+	margin-bottom: -10px;
+}
+
+.logo-small span {
+	font-weight: 100;
+	font-size: 18px;
+}
+
+.vertical-link {
+	margin: 35px 0;
+	list-style: none;
+}
+
+.vertical-link li a {
+	color: #eee;
+	display: block;
+}
+
+.social-icon {
+	display: block;
+	float: left;
+	width: 25px;
+}
+
+/*end footer style*/
+
+.content {
+	min-height: 68.5vh;
+	padding: 50px 0;
+}
+
+.filter h5 {
+	font-family: 'open sans', 'Segoe UI';
+	font-weight: 500;
+	font-size: 20px;
+	margin: 30px 10px;
+	text-transform: uppercase
+}
+
+.category-item {
+	display: block;
+	border-bottom: 1px solid #d8d8d8;
+	padding: 10px 0;
+}
+
+.category-item input {
+	margin-right: 10px;
+}
+
+.filter-size ul {
+	list-style: none;
+	padding: 0 110px 0 0;
+}
+
+.filter-size li a {
+	display: block;
+	padding: 5px 10px;
+	transition: .2s;
+}
+
+.filter-size li a:hover,
+.filter-size li a:active,
+.filter-size li a:focus {
+	background: #e74c3c;
+	color: #fff;
+}
+
+.cart-item {
+
+	border-bottom: 1px solid #eee;
+	margin: 10px 0px;
+	overflow: hidden;
+}
+
+/*Custom Checkbox*/
+
+/* The container */
+
+.container-checkbox {
+	display: block;
+	position: relative;
+	padding-left: 25px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	font-size: 15px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+
+.container-checkbox input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+
+/* Create a custom checkbox */
+
+.checkmark {
+	position: absolute;
+	top: 5px;
+	left: 0;
+	height: 15px;
+	width: 15px;
+	background-color: #eee;
+	border: 1px solid #aaa;
+	border-radius: 2px;
+}
+
+/* On mouse-over, add a grey background color */
+
+.container-checkbox:hover input~.checkmark {
+	background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+
+.container-checkbox input:checked~.checkmark {
+	background-color: #e74c3c;
+	border: 1px solid #b53b2e;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the checkmark when checked */
+
+.container-checkbox input:checked~.checkmark:after {
+	display: none;
+}
+
+/* Style the checkmark/indicator */
+
+.container-checkbox .checkmark:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/* end checkbox custom */
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+	width: 100%;
+}
+
+.h-desc {
+	height: 135px;
+}
+
+.on-bottom {
+	bottom: 0;
+}
+
+.line-with-plus {
+	min-height: 40px;
+}
+
+.line-with-plus hr {
+	width: 90%;
+	float: left;
+}
+
+.line-with-plus span {
+	color: #a7a7a7;
+	font-size: 25px;
+	padding: 5px;
+	line-height: 26px;
+}
+
+
+.badge-cart {
+	font-size: 11px;
+	position: absolute;
+	top: 3px;
+	left: 20px;
+	background: #fff;
+	width: 15px;
+	border-radius: 15px;
+	color: #e74c3c;
+	text-align: center;
+}
+
+
+@media (max-width: 1024px) {
+	.h-desc {
+		/*		height: 115px;*/
+	}
+}
+
+@media (max-width:768px) {
+	.line-with-plus hr {
+		width: 85%;
+	}
+
+	.input-group input {
+		width: 120px !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.welcome-text {
+		padding: 70px 0 130px;
+	}
+
+	.absolute {
+		width: 85%;
+	}
+
+	.h-desc {
+		height: 115px;
+	}
+}
+
+@media (max-width: 425px) {
+	.h-desc {
+		height: 155px;
+	}
+}

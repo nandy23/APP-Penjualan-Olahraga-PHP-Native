@@ -1,0 +1,153 @@
+.color-white {
+	color: #fff;
+}
+
+a.color-white:hover {
+	color: #eee;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.side-container {
+	width: 22%;
+	background-color: #2e363d;
+	color: #f6fbff;
+	min-height: 100vh;
+	position: fixed;
+}
+
+.side-container .logo {
+	background-color: #2e373f;
+	padding: 60px 20px;
+}
+
+.logo a {
+	color: #fff;
+}
+
+.menu {
+	padding: 20px;
+	height: 500px;
+}
+
+.menu ul li a {
+	position: relative;
+	color: #fff;
+	display: block;
+	padding: 7px;
+	-webkit-transition: .2s ease-in;
+	transition: .2s ease-in;
+}
+
+.menu ul li a:hover {
+	color: #ddd;
+	padding-left: 15px;
+}
+
+.menu a i {
+	opacity: 0.3;
+	margin-right: 5px;
+}
+
+.content-container {
+	padding: 40px;
+	width: 78%;
+	margin-left: 22%;
+}
+
+.content-title {
+	background-color: #2f2a46;
+	padding: 10px 25px;
+	color: #fff;
+	border-left: 5px solid #bb5a0a;
+}
+
+.table-container {
+	margin-top: 50px;
+}
+
+.table {
+	margin-top: 20px;
+}
+
+
+.login {
+	background-color: #eee;
+	background-size: cover;
+	min-height: 100vh;
+	padding: 100px;
+}
+
+.login-box {
+	background: #495664;
+	width: 700px;
+	margin: auto;
+	padding: 80px 40px;
+}
+
+.login-text {
+	color: #fff;
+}
+
+.transparent {
+	background: transparent !important;
+}
+
+
+.almost-transparent {
+	background: rgba(0, 0, 0, 0.2);
+	color: rgb(255, 255, 255);
+}
+
+.almost-transparent:focus {
+	background: rgba(0, 9, 0, 0.3);
+	color: #fff;
+}
+
+.small-box {
+	padding: 10px;
+	overflow: hidden;
+}
+
+.small-box .inner {
+	width: 60%;
+	float: left;
+	color: #fff;
+	font-family: 'open sans', 'segoe ui', sans-serif;
+	font-weight: bold;
+}
+
+.small-box .icon {
+	float: right;
+	width: 40%;
+	height: 90px;
+	font-size: 80px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.25);
+}
+
+.small-box-footer {
+	width: 100%;
+	display: block;
+	color: #eee;
+	float: left;
+}
+
+.small-box-footer:hover {
+	color: #fff;
+}
+
+.bg-aqua {
+	background-color: #00c0ef !important
+}
+
+.bg-yellow {
+	background-color: #f39c12 !important
+}
+
+.bg-green {
+	background-color: #e0f520 !important
+}
